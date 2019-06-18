@@ -3,8 +3,12 @@
     {% include head.html %}
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
-    {% include header.html %}
+    {% include about/bioheader.html %}
+    {% include about/bio.html %}
     {% include contact.html %}
     {% include js.html %}
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
     </body>
 </html>

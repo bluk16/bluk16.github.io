@@ -58,6 +58,10 @@ a:focus {
     color: #11505d;
 }
 
+.fa {
+    color: white;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     /* border-bottom: 1px solid rgba(255,255,255,.3); */
@@ -81,6 +85,10 @@ a:focus {
 }
 
 .top-nav-collapse .navText {
+    color:#000000;
+}
+
+.top-nav-collapse .fa {
     color:#000000;
 }
 
@@ -425,4 +433,77 @@ input, textarea {
     form {
         margin: 50px 5% 50px 5%;
     }
+}
+
+/*******************************/
+/* Bio.html page styling below */
+/*******************************/
+
+.bio-intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/test.jpg) no-repeat bottom center scroll;
+    background-color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bio-intro .bio-intro-body {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.bio-intro .bio-intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.bio-intro .bio-intro-body .bio-intro-text {
+    font-size: 12px;
+    font-style: italic;
+}
+.bio-intro {
+    height: 100%;
+    padding: 0;
+}
+
+@media(min-width:767px) {
+    .bio-intro .bio-intro-body .bio-brand-heading {
+        font-size: 100px;
+    }
+
+    .bio-intro .bio-intro-body .bio-intro-text {
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    .btn-circle {
+        margin-top: 15px;
+    }
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    padding: 7px 16px;
+    border: None; 
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
 }
