@@ -86,30 +86,37 @@
             <div class="col-lg-8 col-sm-offset-3 col-sm-6 col-lg-offset-2">
                 <h2>Get In Touch</h2>
                 <p>My inbox is always open. Feel free to reach out and I'll try my best to answer your email!</p>
-                <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">      
-                    <div class="form-group">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control form-control-lg" id="inputName">
-                        <small id="emailHelp" class="form-text text-muted">First and Last name</small>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <div class="row">
+                        <div class="col-md-6">
+                                <p class="hidden">
+                                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                      </p>
+                            <div class="control-group form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."WW>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group form-group">
+                                <input type="tel" class="form-control" name="phone" placeholder="Your Phone" id="phone" required data-validation-required-message="Please enter your phone number (optional).">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="control-group form-group">
+                                <textarea class="form-control" name="message" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" value="Send" class="btn btn-xl">Send</button>
+                        </div>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" name="name" class="form-control" id="inputEmail">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inputSubject">Subject</label>
-                        <input type="text" name="subject" class="form-control" id="inputSubject">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inputMessage">Message</label>
-                        <textarea type="text" name="message" class="form-control" id="inputMessage"></textarea>
-                    </div>
-                    <div data-netlify-recaptcha="true"></div>
-                    <button type="submit" class="btn btn-default btn-lg contactMeFormButton">Submit</button> 
-                  </form>
+                </form>
            </div>
         </div>
     </section>
@@ -127,6 +134,5 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/grayscale.js"></script>
-
     </body>
 </html>

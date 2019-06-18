@@ -296,7 +296,7 @@ font-style: italic;
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
     
     .download-section {
@@ -396,12 +396,29 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+/*form for contact me */
 form {
-    margin: 40px 60px;
-    text-align: left;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif
+    max-width: 800px;
+    margin: auto auto 50px auto;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    padding: 15px;
+    margin-top: 50px;
 }
 
-form button {
-    margin-top: 10px;
+input, textarea {
+    font-size: 110%;
+    display: block;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+@media screen and (max-width : 760px){
+    form {
+        margin: 50px 5% 50px 5%;
+    }
 }
