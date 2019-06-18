@@ -8,7 +8,6 @@ end-quote: "Stay hungry, Stay foolish. - Steve Jobs"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  primary-light-purple: '#C9C7D3'
   primary-white: '#ffffff'
   links: '#219ab3'
 
