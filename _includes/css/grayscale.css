@@ -391,7 +391,11 @@ body {
 }
 
 form {
-    margin: 40px 140px;
+    margin: 40px 100px;
     text-align: left;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+form button {
+    margin-top: 10px;
 }
