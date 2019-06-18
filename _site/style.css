@@ -405,6 +405,10 @@ form {
     margin-top: 50px;
 }
 
+textarea.form-control {
+    height: 133px;
+}
+
 input, textarea {
     font-size: 110%;
     display: block;
