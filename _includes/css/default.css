@@ -443,7 +443,7 @@ input, textarea {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/test.jpg) no-repeat bottom center scroll;
+    background: url(/img/bio-intro.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-white }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -506,4 +506,11 @@ input, textarea {
     width: 100%;
     border-radius: 50%;
     /* display: block; */
+}
+
+#about p {
+    margin: 0 0 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
 }
