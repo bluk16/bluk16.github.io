@@ -11,7 +11,7 @@ color:
   primary-dark: '#000000'
   primary-white: '#ffffff'
   links: '#219ab3'
-
+  text-highlight: 'rgba(10, 22, 197, 0.2)'
 # Footer settings
 footer: Brian Luk
 

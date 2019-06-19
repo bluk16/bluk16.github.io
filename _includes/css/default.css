@@ -4,7 +4,7 @@ body {
     height: 100%;
     font-family: {{ site.font-family }};
     color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.primary-white }}
+    background-color: {{ site.color.primary-white }};
     
 }
 
@@ -322,17 +322,21 @@ font-style: italic;
 }
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
+    border: 1px solid {{ site.color.primary-white }};
     color: {{ site.color.links }};
     background-color: transparent;
 }
 
+.btn-default i {
+    color: {{ site.color.links }};
+}
+
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.links }};
+    border: 1px solid {{ site.color.link }};
     outline: 0;
-    color: {{ site.color.primary-white }};
-    background-color: {{ site.color.links }};
+    color: {{ site.color.links }};
+    background-color: {{ site.color.primary-white }};
 }
 
 ul.banner-social-buttons {
@@ -377,14 +381,12 @@ footer a:hover {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: {{ site.color.text-highlight }};
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: {{ site.color.text-highlight }};
 }
 
 img::selection {
@@ -484,4 +486,24 @@ input, textarea {
 
 .bio-intro-body .fa {
     color:black;
+}
+
+#about .avatar-container {
+    position: relative;
+    left: 42%;
+    width: 100px;
+    height: 170px;
+}
+#about .avatar-container  .avatar-img-border {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#about .avatar-container  .avatar-img {
+    width: 100%;
+    border-radius: 50%;
+    /* display: block; */
 }

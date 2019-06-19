@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
     color: #000000;
-    background-color: #ffffff
+    background-color: #ffffff;
     
 }
 
@@ -327,17 +327,21 @@ font-style: italic;
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
+    border: 1px solid #ffffff;
     color: #219ab3;
     background-color: transparent;
 }
 
+.btn-default i {
+    color: #219ab3;
+}
+
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 1px solid ;
     outline: 0;
-    color: #ffffff;
-    background-color: #219ab3;
+    color: #219ab3;
+    background-color: #ffffff;
 }
 
 ul.banner-social-buttons {
@@ -382,14 +386,12 @@ footer a:hover {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(10, 22, 197, 0.2);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    background: rgba(10, 22, 197, 0.2);
 }
 
 img::selection {
@@ -489,4 +491,24 @@ input, textarea {
 
 .bio-intro-body .fa {
     color:black;
+}
+
+#about .avatar-container {
+    position: relative;
+    left: 42%;
+    width: 100px;
+    height: 170px;
+}
+#about .avatar-container  .avatar-img-border {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#about .avatar-container  .avatar-img {
+    width: 100%;
+    border-radius: 50%;
+    /* display: block; */
 }
