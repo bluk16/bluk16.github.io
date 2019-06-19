@@ -338,7 +338,7 @@ font-style: italic;
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid ;
+    border: 1px solid #219ab3;
     outline: 0;
     color: #219ab3;
     background-color: #ffffff;
@@ -381,7 +381,11 @@ footer p {
 }
 
 footer a:hover {
-    background: white;
+    background: #ffffff;
+}
+
+footer a:hover i {
+    color: #219ab3;
 }
 
 ::-moz-selection {
@@ -491,6 +495,10 @@ input, textarea {
 
 .bio-intro-body .fa {
     color:black;
+}
+
+#about {
+    margin-bottom: 100px;
 }
 
 #about .avatar-container {

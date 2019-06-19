@@ -6,10 +6,11 @@
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>
-                        <a href="{{ network.url }}" class="btn btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i></a>
+                        <a href="{{ network.url }}" class="btn btn-lg" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a>
                     </li>
                     {% endfor %}
-                    <a href="mailto:{{ site.email }}" class="btn btn-lg"><i class="fa fa-envelope fa-fw"></i></a>
+                    <a href="{{ site.strava-url }}" class="btn btn-lg" target="_blank"><i class="fa fa-compass fa-fw"></i></a>
+                    <a href="mailto:{{ site.email }}" class="btn btn-lg" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
                 </ul>
             </div>
         </div>

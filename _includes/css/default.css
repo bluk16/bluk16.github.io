@@ -333,7 +333,7 @@ font-style: italic;
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.link }};
+    border: 1px solid {{ site.color.links }};
     outline: 0;
     color: {{ site.color.links }};
     background-color: {{ site.color.primary-white }};
@@ -376,7 +376,11 @@ footer p {
 }
 
 footer a:hover {
-    background: white;
+    background: {{ site.color.primary-white }};
+}
+
+footer a:hover i {
+    color: {{ site.color.links }};
 }
 
 ::-moz-selection {
@@ -486,6 +490,10 @@ input, textarea {
 
 .bio-intro-body .fa {
     color:black;
+}
+
+#about {
+    margin-bottom: 100px;
 }
 
 #about .avatar-container {
