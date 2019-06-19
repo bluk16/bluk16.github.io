@@ -527,3 +527,19 @@ input, textarea {
     line-height: 1.6;
     text-align: justify;
 }
+
+#about .image-gallary-container {
+    display: inline-block;
+}
+
+#about .image-gallary-container img {
+    width: 275px; 
+    height: 300px;
+    border-radius: 10px;
+}
+
+#about .image-gallary-container img:hover,
+#about .image-gallary-container img:active, 
+#about .image-gallary-container img:focus {
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
