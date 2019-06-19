@@ -16,7 +16,7 @@ framework and integrates it to the build process,
 as well as working on the backend systems. 
 <br /><br />
 Brian now resides in Brooklyn NY with his wife. When not writing code, he
-can be found running in Prospects Park, trying to perform the 
+can be found running in Prospect Park, trying to perform the 
 <a href="https://youtu.be/c-TD6-GESQk?t=23" target="_blank">
     Power Clean And Jerk movement
 </a> at a CrossFit gym, or eating triple chocolate cookie(s) from 
