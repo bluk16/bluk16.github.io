@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    {% include home-page/head.html %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include home-page/nav.html %}
+    {% include home-page/about/bioheader.html %}
+    {% include home-page/about/bio.html %}
+    {% include home-page/footer.html %}
+    {% include home-page/js.html %}
+    {% if jekyll.environment == 'production' %}
+    {% include home-page/analytics.html %}
+    {% endif %}
+    </body>
+</html>
