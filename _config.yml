@@ -30,3 +30,8 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins: [jekyll-paginate]
+
+paginate: 1
+paginate_path: "/blog/page:num/"
