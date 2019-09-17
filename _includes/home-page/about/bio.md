@@ -1,7 +1,7 @@
 Brian is a software engineer based in New York City. He has working experience in large-scale backend systems and full-stack web development. Most of his skills and knowledge are either self-taught or from work experience. 
 <br /><br />
 Brian is fascinated by the values and use cases of data in business. He is focused on pursuing a career in operations research and data science. With an increasing importancy of data-driven evidence and decisions, 
-Brian is eager to use advance mathematical modelings, modern computation, and data analytics skills to provide better business intelligence and solutions.
+Brian is eager to use advance mathematical modeling, modern computation, and data analytics skills to provide better business intelligence and solutions.
 <br /><br />
 To begin the pursuit his career, he has completed a number of certifications on data analysis and machine learning at <a href="https://graduation.udacity.com/confirm/MT2JF7F4" target="_blank">Udacity</a> and <a href="https://www.coursera.org/account/accomplishments/verify/TKXD4ZNJ9W6Z" target="_blank">Coursera</a>. Some of his projects are available at <a href="https://github.com/bluk16?tab=repositories" target="_blank">Github</a>.
 <br /><br />
