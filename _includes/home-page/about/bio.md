@@ -9,8 +9,7 @@ Shortly after graduating from Brandeis University in May 2016,
 he worked at a NYC based FinTech startup named <a href="https://www.trade.it/" target="_blank">TradeIt</a> 
 (acquired by TradingView), where he built backend services 
 and API infrastructure that improves investment experience 
-of mobile retail investors. Currently he is an engineer at another
-FinTech company named <a href="https://www.investvoyager.com/" target="_blank">Voyager</a> where he builds automated UI test 
+of mobile retail investors. Currently he is an engineer at another institution where he builds automated UI test 
 framework and streamlines software product release process.
 <br /><br />
 Brian now resides in Brooklyn. When not writing code, he
