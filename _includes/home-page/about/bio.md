@@ -1,23 +1,9 @@
-Brian is a software engineer based in New York City. He has working experience in large-scale backend systems and full-stack web development. Most of his skills and knowledge are either self-taught or from work experience. 
+Brian aspires to become a Data Scientist. With 4 year of software engineering experience in FinTech startups, he has proven programming skills in a collaborative work environment.
 <br /><br />
-Brian is fascinated by the values and use cases of data in business. He is focused on pursuing a career in operations research and data science. With an increasing importancy of data-driven evidence and decisions, 
-Brian is eager to use advance mathematical modeling, modern computation, and data analytics skills to provide better business intelligence and solutions.
+Coming from a computer science background, Brian have been utilizing different resources to better prepare himself for a career in Data Science. Since 2019, he has completed a number of certificates, ranging from probability theory to machine learning. Please refer to the full list in the <a href="https://www.thebrianluk.com/rsc/resume.pdf" target="_blank">resume</a>.
 <br /><br />
-To begin the pursuit his career, he has completed a number of certifications on <a href="https://graduation.udacity.com/confirm/MT2JF7F4" target="_blank">data analysis</a> and <a href="https://www.coursera.org/account/accomplishments/verify/TKXD4ZNJ9W6Z" target="_blank">machine learning</a> at Udacity and Coursera respectively. Some of his projects are available at <a href="https://github.com/bluk16?tab=repositories" target="_blank">Github</a>.
+Brian is an incoming MEng candidate, merit scholar at Cornell Tech.
 <br /><br />
-Shortly after graduating from Brandeis University in May 2016,
-he worked at a NYC based FinTech startup named <a href="https://www.trade.it/" target="_blank">TradeIt</a> 
-(acquired by TradingView), where he built backend services 
-and API infrastructure that improves investment experience 
-of mobile retail investors. Currently he is an engineer at another institution where he builds automated UI test 
-framework and streamlines software product release process.
-<br /><br />
-Brian now resides in Brooklyn. When not writing code, he
-can be found running in Prospect Park, trying to perform the 
-<a href="https://youtu.be/c-TD6-GESQk?t=23" target="_blank">
-    Power Clean And Jerk movement
-</a> at a CrossFit gym, or eating triple chocolate cookie(s) from 
-<a href="https://www.yelp.com/biz/buds-and-beans-caf%C3%A9-brooklyn" target="_blank">
-    Buds & Beans Café
-</a>.
+Brian now resides in Brooklyn. In his free time, he
+can be found <a href="https://www.strava.com/athletes/42986196" target="_blank">running</a>, or working on his <a href="https://www.youtube.com/channel/UCyhpK80sQmcZtplPj76wYnA?view_as=subscriber" target="_blank">Youtube vlog</a>.
 <br /><br />
