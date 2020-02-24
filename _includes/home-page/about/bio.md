@@ -1,6 +1,6 @@
 Brian aspires to become a Data Scientist. With 4 years of software engineering experience in FinTech startups, he has proven programming skills in a collaborative work environment.
 <br /><br />
-Coming from a computer science background, Brian have been utilizing different resources to better prepare himself for a career in Data Science. Since 2019, he has completed a number of certificates, ranging from probability theory to machine learning. Please refer to the full list in the <a href="https://www.thebrianluk.com/rsc/resume.pdf" target="_blank">resume</a>.
+Coming from a computer science background, Brian have been utilizing different resources to better prepare himself for a career in Data Science. Since 2019, he has completed a number of certificates, ranging from probability theory to machine learning. See his <a href="https://www.kaggle.com/bluk16/gradient-descent-with-linear-regression" target="_blank"> Kaggle post</a>. Please refer to the full list in the <a href="https://www.thebrianluk.com/rsc/resume.pdf" target="_blank">resume</a>.
 <br /><br />
 Brian is an incoming MEng candidate, merit scholar at Cornell Tech.
 <br /><br />
