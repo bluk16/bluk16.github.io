@@ -1,5 +1,5 @@
 # Site settings
-title: Brian Luk 
+title: Brian Drilluk
 email: 100freestyle46@gmail.com
 url: https://thebrianluk.com
 intro-quote: "We know what we are, but know not what we may be. - William Shakespeare"
@@ -14,7 +14,7 @@ color:
   links: '#219ab3'
   text-highlight: 'rgba(10, 22, 197, 0.2)'
 # Footer settings
-footer: Brian Luk
+footer: Brian Drilluk
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
